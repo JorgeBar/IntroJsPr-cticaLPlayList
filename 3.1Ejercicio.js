@@ -22,9 +22,9 @@ const input2 = [
 ]
 
 const mostrarInput2 = (input2) => {
-   const lastElement = input2.slice(0,-1).join('/');
-   const extension = input2.slice(-1);
-   return `${lastElement}.${extension}`;
+   const ruta = input2.slice(0,-1).join('/');
+   const extension = input2.slice(-1)[0];
+   return `${ruta}.${extension}`;
 }
 console.log(mostrarInput2(input2))
 
@@ -32,16 +32,20 @@ console.log(mostrarInput2(input2))
 const input3 = [
     'programming',
     'languages',
-    'easey',
+    'easy',
     'beginner',
     'useful',
     'pythonstuff',
     'py',
 ]
 
-const mostrarIpunt3 = (input3) => {
+const mostrarInput3 = (input3) => {
     const lastElement = input3.slice(0,-1).join('/');
-    const extension = input3.slice(-1);
+    const extension = input3.slice(-1)[0];
     return `${lastElement}.${extension}`;
 
 }
+
+console.log(mostrarInput3(input3)
+
+)

@@ -2,14 +2,15 @@ const objeto = {
     Nombre: "Jorge",
     Apellidos: "Barroso",
     Asignaturas: [ 
-       { "Nodejs" : "2024-12-23",
-        "Html" : "2024-10-12",
-        "Css": "2024-02-8",
-        "Js" : "2024-02-10"}
+       { nombre: "Node.js", fecha: "2024-12-23"},
+       { nombre: "Git", fecha: "2025-09-23"},
+       { nombre: "React", fecha: "2024-10-23"},
+
+      
 
     ],
     "Busqueda" : true
 
 };
 
-console.log(objeto);
+console.log(objeto.Asignaturas[2].fecha);

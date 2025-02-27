@@ -18,7 +18,7 @@ const datos = [
         ]
     },
     {
-        id: 1,
+        id: 3,
         nombre: 'Juan',
         habilidades: ['Java', 'Spring', 'Hibernate'],
         proyectos: [
